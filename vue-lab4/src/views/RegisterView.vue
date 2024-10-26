@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import TheWelcome from '../components/ui/TheWelcome.vue'
+import RegisterForm from '@/components/ui/RegisterForm.vue'
 import DefaultLayout from '@/components/layout/DefaultLayout.vue'
 </script>
 
 <template>
-  <DefaultLayout> <TheWelcome /></DefaultLayout>
+  <DefaultLayout><RegisterForm /></DefaultLayout>
 </template>

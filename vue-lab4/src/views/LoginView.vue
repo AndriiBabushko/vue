@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import TheWelcome from '../components/ui/TheWelcome.vue'
 import DefaultLayout from '@/components/layout/DefaultLayout.vue'
+import LoginForm from '@/components/ui/LoginForm.vue'
 </script>
 
 <template>
-  <DefaultLayout> <TheWelcome /></DefaultLayout>
+  <DefaultLayout><LoginForm /></DefaultLayout>
 </template>
